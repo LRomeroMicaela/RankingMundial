@@ -6,7 +6,7 @@
 - Tableau
 
 ### Metodología utilizada:
-- Se descarga la base de datos de kaggle, se importan distintas tablas de la [página Datos Macro](https://datosmacro.expansion.com/?gad_source=1&gclid=Cj0KCQjwwae1BhC_ARIsAK4JfrxnAeYAjj9U4X-rs3Nxy3o0eKtXeLdAoFU0_6KQEjpabjQx2eWT474aAtW2EALw_wcB) para profundizar el análisis a realizar. Para poder limpiar la tabla, de información no necesaria y también unificar el documento, se utilizaron varias fórmulas, entre ellas VLOOKUP.
+- Se descarga la base de datos de kaggle, se importan distintas tablas de la [página Datos Macro](https://datosmacro.expansion.com/?gad_source=1&gclid=Cj0KCQjwwae1BhC_ARIsAK4JfrxnAeYAjj9U4X-rs3Nxy3o0eKtXeLdAoFU0_6KQEjpabjQx2eWT474aAtW2EALw_wcB) para profundizar el análisis a realizar (Data Wrangling). Para poder limpiar la tabla, de información no necesaria y también unificar el documento, se utilizaron varias fórmulas, entre ellas VLOOKUP.
 -  Se guarda el archivo de google sheets como .csv para luego poder cargarlo en MySQL Workbrench.
 - En MySQL Workbrench se genera una nueva base de datos y una tabla con todo el contenido de información. Se conecta la misma a Tableau para generar el análisis gráfico.
 - Dentro de Tableau se generaron varias hojas de análisis para cumplir con el objetivo del estudio.
